@@ -11,8 +11,9 @@
 a = 5
 b = ''
 
-a.times do
+puts '<ul>'
+a.times do |b|
   b = "<li> hola </li>\n"
+  puts b
 end
-
-puts b
+puts '</ul>'
