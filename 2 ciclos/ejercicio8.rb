@@ -4,7 +4,7 @@
 a = ''
 10.times do |i|
 	if (i + 1 ).even?
-		puts '{#i} par'
+		puts '#{i} par'
 	else
 		puts i + 1
 	end
